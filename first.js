@@ -665,3 +665,81 @@
 
 
 
+// var signal = ['Green', 'Red', 'Yellow'];
+// var length = signal.length;
+// for (var i = 0; i < length; i++) {
+//     var res = signal[i];
+//     if (res == "Green"){
+//         console.log(signal[i] + "  : Hurry Up, Gooooo!!!!");
+//     } else if (res == "Red") {
+//         console.log(signal[i] + "  : Statchu, Dont Move!!!");
+//     } else if(res == "Yellow"){
+//         console.log(signal[i] + "  : Road will be free soon. wait...");
+//     }
+    
+// }
+
+// var Signal = "Yellow";
+// switch (Signal) {
+//     case "Green":
+//         console.log("Hurry Up, Gooooo!!!!");
+//     break;
+//     case "Red" :
+//         console.log("Statchu, Dont Move!!!");
+//     break;
+//     case "Yellow" :
+//         console.log("Slwly aga man");
+//     break;
+//     default :
+//     console.log("Tui Ghyuma");
+// }
+
+
+
+
+
+
+
+
+
+
+// //////////////////////////////Module--5 Javascript
+
+
+// let need = 7;
+// let jimHeight = 84;
+// let jimHeightInFeet = jimHeight/12;
+// console.log(jimHeightInFeet);
+
+
+
+// function inchesToFeet(inchersInput) {
+//     let feet = inchersInput / 12;
+//     return feet;
+// }
+// let inp = 15;
+// let a = inchesToFeet(inp);
+// console.log(a);
+
+
+
+
+
+// function maileToKm(MileInpit) {
+//     let Km = MileInpit * 1.60934;
+//     return Km;
+// }
+// let inp = 2;
+// let a = maileToKm(inp);
+// console.log(a);
+
+function ResultGiven(input) {
+    let check = input % 2;
+    if (check == 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+let res = ResultGiven(98);
+console.log(res);
