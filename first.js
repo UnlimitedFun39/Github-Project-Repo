@@ -825,3 +825,65 @@
 
 
 
+// function factorial(number) {
+//     let result = 0;
+//     for (let i = 0; i < number; i++){
+//         result = result + i;
+//     }
+//     return result;
+// }
+// let mainResult = factorial(4);
+// console.log(mainResult);
+
+
+// function factorial(number) {
+//     let result = 0;
+//     for (let i = number; i >= 1; i--){
+//         result = result + i;
+//     }
+//     return result;
+// }
+// let mainResult = factorial(5);
+// console.log(mainResult);
+
+
+
+
+// function factorial(number) {
+//     let result = 1;
+//     for (let i = number; i >= 1; i--){
+//         result = result * i;
+//     }
+//     return result;
+// }
+// let mainResult = factorial(5);
+// console.log(mainResult);
+
+
+
+
+
+
+
+
+
+
+// let array = [2023, 2024, 2025, 2028, 2030];
+
+// function findLeapYear(years) {
+//     let leapyear = [];
+//     for (let i = 0; i < years.length; i++) {
+//         let year = years[i];
+//         if(year % 4 == 0) {
+//             leapyear.push(year);
+//         }
+//     }
+//     return leapyear;
+// }
+// let output = findLeapYear(array);
+// console.log(output);
+
+
+
+
+
