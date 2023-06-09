@@ -522,3 +522,146 @@
 
 
 
+// var student = {
+//         id      : 105,
+//         class   : 9,
+//         name    : 'Ashif',
+//         marks   : 70,
+// }
+// var main = student.id = 100;
+// var orr = student['marks'];
+// student['id'] = 100;
+// var kk = Object.keys(student);
+// var jj = Object.values(student);
+
+// console.log(student.class);
+// console.log(main);
+// console.log(orr);
+// console.log(kk);
+// console.log(jj);
+
+
+
+
+
+// var student = {
+//             id      : 105,
+//             class   : 9,
+//             name    : 'Ashif',
+//             marks   : 70,
+//             color   : 'Black',
+//             Media   : 30
+//     }
+
+// var propertyN = Object.keys(student);
+// for (var i = 0; i < propertyN.length; i++) {
+//     var main = propertyN[i];
+//     console.log(main);
+//     var kain = student[main];
+//     console.log(main, kain);
+// }
+
+
+
+
+
+// var student = {
+//             id      : 105,
+//             class   : 9,
+//             name    : 'Ashif',
+//             marks   : 70,
+//             color   : 'Black',
+//             Media   : 30
+//     }
+
+// for (var NN in student){
+//     var main = student[NN];
+//     console.log(NN, main);
+// }
+
+
+
+////////Practice======
+
+// function foo() {
+//     console.log("Foo");
+// }
+
+// function bar() {
+//     console.log("Bar");
+// }
+// var main = bar();
+// foo(main);
+// foo();
+
+
+
+// function makeAverage (num1, num2, num3) {
+//     var sum = num1 + num2 + num3;
+//     var average = sum / 3;
+//     return average;
+// }
+
+// var getresult = makeAverage(2, 3, 4);
+// console.log(getresult);
+
+
+
+// function make_avg() {
+    
+// }
+
+// var num = [10, 12, 14, 16, 18, 20];
+// var len = num.length;
+
+
+// function sumArray(num) {
+//     for (var i = 0, length = num.length, sum = 0;  i < length; sum = sum + num[i++]);
+//     var average = sum / 6;
+//     return average;
+//   }
+
+//   var num = [10, 12, 14, 16, 18, 20];
+//   var res = sumArray(num);
+//   console.log(res);
+
+
+
+// var num = [10, 12, 14, 16, 18, 20];
+// var lengthOfNum = num.length;
+// var sum = 0;
+// for (var i = 0; i < lengthOfNum; i++) {
+//     var get = num[i];
+//     sum += get;
+// } 
+
+// var total = sum;
+// function make_avg(total, lengthOfNum){
+//     var average = total / lengthOfNum;
+//     return average;
+// }
+
+// var theFinal = make_avg(total, lengthOfNum);
+// console.log(theFinal);
+
+
+
+// var res = 17 % 10;
+// console.log(res);
+
+
+// function odd_even(input) {
+//     var cal = input % 2;
+//     if (cal != 0){
+//         console.log("This is odd number")
+//     } else {
+//         console.log("This is even number")
+//     }
+
+// }
+// var res = odd_even(12)
+// // console.log(res)
+
+
+
+
