@@ -733,13 +733,95 @@
 // let a = maileToKm(inp);
 // console.log(a);
 
-function ResultGiven(input) {
-    let check = input % 2;
-    if (check == 0) {
-        return true;
-    } else {
-        return false;
-    }
-}
-let res = ResultGiven(98);
-console.log(res);
+// function ResultGiven(input) {
+//     let check = input % 2;
+//     if (check == 0) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }
+// let res = ResultGiven(98);
+// console.log(res);
+
+
+
+// function leapYear(year) {
+//     let check = year % 4;
+//     if (check == 0) {
+//         return true;
+//     } 
+//     return false;
+    
+// }
+// let res = leapYear(2000);
+// console.log(res);
+
+
+
+// let array = [5, 7, 8, 10, 45, 30];
+// let sum = 0;
+// let sum1 = 0;
+// function getSum(numbers) {
+//     for(let i = 0; i < array.length; i++){
+//         let get = numbers[i];
+//         let even = get % 2;
+//         if (even  !== 0) {
+//             sum += numbers[i];
+//         } else if (even == 0){
+//             sum1 += numbers[i];
+//         }
+//     }
+//     console.log(sum);
+//     console.log(sum1);
+// }
+// getSum(array);
+
+
+
+// let array = [5, 7, 8, 10, 45, 30];
+// let sum = 0;
+// let sum1 = 0;
+// 
+// getSum(array);
+
+
+
+
+
+// // let num = [10, 12, 17, 16, 129, 20];
+
+// function getSum (numbers) {
+//     let sum = 0;
+//     for (let i = 0; i < numbers.length; i++){
+//         let gotIndex = numbers[i];
+//             sum += gotIndex;
+//     }
+//     return sum;
+// }
+
+
+
+// let num1 = [10, 12, 17, 16, 129, 20];
+
+// function getOddNumbers(numbers) {
+//         let OddNumber = [];
+//     for (let i = 0; i < numbers.length; i++) {
+//         let indexofarray = numbers[i];
+//         if (indexofarray % 2 !== 0){
+//             OddNumber.push(indexofarray);
+//         }
+//     }
+//     return OddNumber;
+// }
+
+// let result = getOddNumbers(num1);
+// console.log(result);
+
+
+// let res = getSum(result);       //Call the previous one.
+// console.log(res);
+
+
+
+
